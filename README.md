@@ -1,4 +1,5 @@
 # JavaExam2025
+
 The exam focused on developing a Java application that reads data from a text file and imports it into a SQL database using JDBC and Maven. A user menu allows basic queries against the database. 
 
 # Java Scrapyard Database Project
@@ -31,12 +32,16 @@ The project is built with a strong focus on object-oriented principles like **in
 ## ▶️ How to Run
 
 1. Clone the repository  
-   ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
-Set up your database using the scrapyard.sql file
+Important: In IntelliJ, open the project by selecting the folder:
+JavaExam2025-main/Eksamen2025Java2
+This ensures that file paths like vehicles.txt and db.properties are resolved correctly when running the program.
+
+Set up your database using the scrapyard.sql file.
 
 Create a db.properties file in the resources folder with your own database credentials:
 url=jdbc:mysql://localhost:3306/scrapyard
 username=YOUR_USERNAME
 password=YOUR_PASSWORD
-Run the Main class to launch the application
+
+Run the Main class to launch the application.
